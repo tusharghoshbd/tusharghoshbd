@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<!--
+	CSE 190 M Lab 7 HTML file
+	You should download this file for your lab, but you should not edit its contents.
+	-->
+
+	<head>
+		<title>Maze!</title>
+		
+		<!-- provided files; do not modify -->
+		<link href="maze.css" type="text/css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		
+		<!-- your code -->
+		<script src="maze.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<h1>The Amazing Mouse Maze!</h1>
+		<h2 id="status">Click the "S" to begin.</h2>
+		
+		<!-- This part of the page represents the maze -->
+		<div id="maze">
+			<div id="start">S</div>
+			<div class="boundary" id="boundary1"></div>
+			<div class="boundary"></div>
+			<div class="boundary"></div>
+			<div class="boundary"></div>
+			<div class="boundary"></div>
+			<div id="end">E</div>
+		</div>
+		
+		<pre>
+			Guidelines: 
+			Start game: 
+			1. Click on Start and move mouse pointer from start to end along the path 
+			2. Mouseover Start then move mouse pointer from start to end along the path. 
+			
+			End game: 
+			1. if you reach end without moving out from path to end, you will win. 
+			2. If you enter to boundery then game over, you will lose. 
+
+			The object of this game is to guide the mouse cursor through the start area and get to the end area.  Be sure to avoid the walls:
+		</pre>
+		
+		<div class="boundary example"></div>
+		
+		<p>
+			Good luck!
+		</p>
+	</body>
+</html>
