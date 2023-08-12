@@ -1,10 +1,8 @@
-
 #container {
     width: 1000px;
     height: 500px;
     background-color: gray;
 }
-
 
 .circle {
     height: 50px;
@@ -12,4 +10,4 @@
     background-color: red;
     border-radius: 50%;
     display: inline-block;
-  }
+}
