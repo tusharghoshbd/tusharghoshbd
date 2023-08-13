@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    scale: 1;
+    background-image: url('images/background.png');
+    background-repeat: repeat;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bannerbg {
+    text-align: center;
+    background-image: url('images/bannerbg.png');
+    background-repeat: repeat-x;
+    border: 0px solid red;
+}
+
+.headerText {
+    text-align: center;
+    width: 100%;
+}
+
+.contents {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    border: 4px solid grey;
+    overflow: auto;
+    display: block;
+}
+
+.moviedetails {
+    overflow: visible;
+    width: 76%;
+    display: inline-block;
+}
+
+.generaloverview {
+    width: 23%;
+    float: right;
+    display: block;
+    padding-right: 5px;
+    padding-top: 1px;
+    margin: 0px;
+    background-color: darkolivegreen;
+    border: 0px solid yellow;
+    overflow: auto;
+}
+
+.subbanner {
+    display: block;
+    clear: both;
+    background-image: url('images/rbg.png');
+    width: 100%;
+    background-repeat: repeat-x;
+    color: red;
+    font-size: 70px;
+    overflow: visible;
+    border: 0px solid red;
+    border-top-left-radius: 10px;
+
+}
+
+.subbanner span {
+    text-align: left;
+    vertical-align: top;
+    margin-top: 20%;
+}
+
+.moviereview-column-one {
+    padding-left: 10px;
+    width: 50%;
+    float: left;
+}
+
+.moviereview-column-two {
+    padding-left: 10px;
+    width: 50%;
+    display: table-cell;
+}
+
+.movieqoute {
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.moviename {
+   display: inline-block;
+}
+
+.moviename > span {
+    font-style: italic;
+}
+
+.pagination {
+    width: 50%;
+    background-color: darkolivegreen;
+    margin-bottom: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 4px;
+}
+
+.validators {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}

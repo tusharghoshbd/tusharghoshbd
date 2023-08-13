@@ -1,0 +1,39 @@
+body {
+    background-color: gray;
+    padding: 20px;
+    height: 100vh;
+}
+h1 {
+    color: blue;
+}
+
+h3 {
+    color: #ffffff;
+}
+p#first {
+    color: rgb(255, 145, 0);
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 1.5em;
+}
+
+div > h2.header {
+    color: #aac1ea;
+}
+
+div > ul {
+    color: #ffffff;
+}
+
+div > ul > li {
+    font-size: 20px;
+}
+
+div > ol > li {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+div.footer {
+    float: right;
+}
